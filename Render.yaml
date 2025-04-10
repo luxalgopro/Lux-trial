@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: smartchart-basic
+    env: python
+    buildCommand: ""
+    startCommand: python bot.py
+    envVars:
+      - key: BOT_TOKEN
+        value: 7892241576:AAFGqAU8ZQa80wLWJjFLk9Cubt8lKtSlu-o
